@@ -1,0 +1,57 @@
+Data Types : Data types define the kind of data that can be stored in a variable. Common Python data types include:
+            1 int – Integer numbers (e.g., 10)
+            2 float – Decimal numbers (e.g., 3.14)
+            3 str – Text or strings (e.g., "Hello")
+            4 bool – True or False values
+Data Structures : Data structures are used to organize and store data efficiently. The main Python data structures are:
+                 1 List - Ordered and mutable collection.
+                 2 Tuple - Ordered and immutable collection.
+                 3 Dictionary - Stores data as key-value pairs.
+                 4 Set - Unordered collection of unique elements.
+Data Pipeline : A data pipeline is a sequence of steps used to collect, clean, transform, and store data so it can be analyzed or used in machine learning. The basic stages are:
+               7 Stages of a Data Pipeline
+               1 Data Collection - Gather data from sources such as databases, CSV files, APIs, sensors, or websites.
+               2 Data Ingestion - Import the collected data into the pipeline for further processing.
+               3 Data Cleaning - Remove duplicate records, handle missing values, and correct errors to improve data quality.
+               4 Data Transformation - Convert the data into the required format by encoding, scaling, aggregating, or creating new features.
+               5 Data Validation - Check that the data is accurate, complete, consistent, and follows the required rules.
+               6 Data Storage - Save the processed data in a database, data warehouse, or cloud storage for future use.
+               7 Data Analysis / Visualization / Model Building - Use the processed data to create reports, dashboards, or train machine learning models to gain insights and make predictions.
+
+
+Data Cleaning : Data Cleaning is the process of identifying and correcting errors, missing values, duplicate records, and inconsistent data to improve 
+                the quality of a dataset before analysis or machine learning.
+Steps in Data Cleaning :
+1 Handle Missing Values – Fill, remove, or replace missing data.
+2 Remove Duplicate Records – Delete repeated rows from the dataset.
+3 Correct Incorrect Data – Fix spelling mistakes, incorrect values, or wrong data formats.
+4 Handle Outliers – Detect and treat unusual values that are much higher or lower than the rest of the data.
+5 Convert Data Types – Convert data into the correct format (e.g., string to integer or date).
+6 Standardize Data – Make data consistent by using the same format for dates, text, and units.
+7 Rename Columns – Use meaningful and consistent column names.
+
+Missing Values : Missing values are data points that are not available or are left blank in a dataset. They are usually represented as NaN, NULL, or empty cells.
+        Example :
+                 Name	Age	Salary
+                 Aman	25	40000
+                 Riya	NaN	45000
+
+Here, Riya's Age is a missing value.
+
+Outliers : Outliers are values that are significantly higher or lower than most of the other values in a dataset. They may occur due to data entry errors or genuine rare observations.
+       Example :
+               Salary values : 30000, 32000, 31000, 30500, 350000
+
+Here, 350000 is an outlier because it is much larger than the other salary values.
+
+EDA : Exploratory Data Analysis (EDA) is the process of examining and understanding a dataset before building a machine learning model. It helps 
+      identify patterns, errors, and relationships in the data.
+1. Understand the Dataset : Check the number of rows and columns,
+                            View the first and last few records,
+                            Understand the meaning of each column.
+                            Common Commands : df.head(), df.tail(), df.shape, df.columns.
+2. Check Data Types : Find the data type of each column (integer, float, string, etc.).
+                      Command : df.dtypes
+3. Check Missing Values : Identify columns that contain missing (NaN) values.
+                          Command : df.isnull().sum()
+4.
