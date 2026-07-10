@@ -54,4 +54,59 @@ EDA : Exploratory Data Analysis (EDA) is the process of examining and understand
                       Command : df.dtypes
 3. Check Missing Values : Identify columns that contain missing (NaN) values.
                           Command : df.isnull().sum()
-4.
+4. Check Duplicate Records : Find and remove duplicate rows.
+                             Commands : df.duplicated().sum()
+                                        df.drop_duplicates()
+5. Summary Statistics : Get statistical information about numerical columns.
+                        Command : df.describe()
+6. Check Unique Values : Find the unique values in a column.
+                         Command : df["Column_Name"].unique()
+7. Value Counts : Count the frequency of each category.
+                  Command : df["Column_Name"].value_counts()
+8. Detect Outliers : Find unusually high or low values using box plots or statistical methods.
+                     Command : df.boxplot()
+9. Correlation Analysis : Check how numerical columns are related.
+                          Command : df.corr(numeric_only=True)
+10. Data Visualization : Visualize the data to identify trends and patterns.
+         Common plots : Histogram – Shows the distribution of data.
+                        Bar Chart – Compares categories.
+                        Box Plot – Detects outliers.
+                        Scatter Plot – Shows the relationship between two numerical variables.
+                        Pie Chart – Shows proportions.
+Data Visualization : Data Visualization is the process of representing data in the form of graphs and charts.It helps us understand
+                     patterns, trends, relationships, and outliers in a dataset more easily.
+Matplotlib : Matplotlib is a basic Python library used for creating static graphs and charts. It provides full control 
+             over the appearance of plots. It is widely used for data analysis and reporting.
+Common charts in Matplotlib : Line Plot
+                              Bar Chart
+                              Histogram
+                              Pie Chart
+                              Scatter Plot
+Seaborn : Seaborn is a Python visualization library built on top of Matplotlib.It provides attractive and informative statistical 
+          graphs with less code. It is mainly used for Exploratory Data Analysis (EDA).
+Common charts in Seaborn : Count Plot
+                           Box Plot
+                           Violin Plot
+                           Heatmap
+                           Pair Plot
+                           Scatter Plot
+Correlation : Correlation is a statistical measure that shows the relationship between two numerical variables.It tells us whether 
+              one variable changes when another variable changes.
+Types of Correlation :
+1. Positive Correlation (+1) : Both variables increase or decrease together.
+                              Example: Experience ↑ → Salary ↑
+2. Negative Correlation (-1) : One variable increases while the other decreases.
+                              Example: Speed ↑ → Travel Time ↓
+3. No Correlation (0) : There is no relationship between the variables.
+                       Example: Shoe Size and Salary
+Correlation Value Range : +1 → Perfect positive correlation
+                           0 → No correlation
+                          -1 → Perfect negative correlation
+Distribution : Distribution describes how the values of a variable are spread across a dataset. It helps us understand 
+                the shape, center, and spread of the data.
+Common Plots Used : Histogram,
+                    Box Plot,
+                    Density Plot (KDE)
+
+
+
