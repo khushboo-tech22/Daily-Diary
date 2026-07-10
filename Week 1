@@ -1,4 +1,4 @@
-Data Types : Data types define the kind of data that can be stored in a variable. Common Python data types include:
+**Data Types** : Data types define the kind of data that can be stored in a variable. Common Python data types include:
             1 int – Integer numbers (e.g., 10)
             2 float – Decimal numbers (e.g., 3.14)
             3 str – Text or strings (e.g., "Hello")
