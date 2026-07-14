@@ -1,0 +1,29 @@
+Feature Engineering : Feature Engineering is the process of creating, modifying, or selecting features (columns) in a dataset to improve the performance of a machine learning model.
+                      Simply, it means making the data more useful for prediction.
+Feature Engineering is important for : 1. Improves model accuracy.
+                                       2. Makes patterns easier to learn.
+                                       3. Reduces unnecessary information.
+                                       4. Helps models perform better.
+Common Feature Engineering Techniques :
+1. Creating New Features : Create a new column from existing columns.
+2. Encoding Categorical Data : Convert text into numbers.
+3. Feature Scaling : Bring numerical values to a similar range.
+4. Feature Selection : Select only the important columns.
+PCA(Principal Component Analysis) : PCA is a dimensionality reduction technique that converts many related features into a smaller number of new features called Principal Components,
+                                    while keeping most of the important information.
+PCA is used for : 1. Reduce dimensions
+                  2. Remove redundant features
+                  3. Speed up training
+                  4. Improve visualization
+                  5. Reduce noise
+Handling Imbalanced Data : Imbalanced data means one class has many more records than another class.
+Techniques : 
+1. Oversampling : Increase minority class samples.
+2. Undersampling : Reduce majority class samples.
+3. SMOTE (Synthetic Minority Oversampling Technique) : Creates new synthetic (artificial) minority samples instead of simply copying existing ones.
+4. ADASYN (Adaptive Synthetic Sampling) : An improved version of SMOTE.
+                                          Creates more synthetic samples for difficult-to-learn minority instances.
+5. Tomek Links : Removes overlapping samples between classes to make the class boundary clearer.
+Pattern Detection : Pattern Detection means finding useful trends or relationships in the data.
+Anomaly Identification : Anomaly Identification means detecting unusual or abnormal data points that are very different from the rest.
+                         These unusual points are called anomalies or outliers.
