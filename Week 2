@@ -27,3 +27,25 @@ Techniques :
 Pattern Detection : Pattern Detection means finding useful trends or relationships in the data.
 Anomaly Identification : Anomaly Identification means detecting unusual or abnormal data points that are very different from the rest.
                          These unusual points are called anomalies or outliers.
+Uses : 1. Identify data entry errors.
+       2. Detect fraud.
+       3. Improve data quality.
+       4. Build better ML models.
+Methods to Detect : 1. Detect Using Box Plot
+                    2. Detect Using IQR (Interquartile Range)
+Auto-EDA Tools : Auto-EDA (Automatic Exploratory Data Analysis) tools automatically analyze a dataset and generate a detailed report
+                 with statistics and visualizations.
+Uses : 1. Saves time.
+       2. Finds missing values.
+       3. Detects outliers.
+       4. Shows correlations.
+       5. Generates charts automatically.
+YData Profiling : YData Profiling is a Python library that automatically creates a detailed Exploratory Data Analysis (EDA) report for a dataset. It analyzes the data and provides
+                  information about missing values, data types, statistics, correlations, distributions, duplicates, and outliers in a single HTML report.
+Sweetviz : Sweetviz is a Python library that automatically generates attractive and interactive EDA reports. It helps analyze features, compare datasets, identify missing
+           values, visualize distributions, and understand relationships between variables.
+D-Tale : D-Tale is an interactive Python library that opens a dataset in a web browser, allowing users to explore, filter, sort, edit, and visualize data without
+         writing many Python commands.
+
+
+
