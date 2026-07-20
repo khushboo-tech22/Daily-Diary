@@ -1,0 +1,27 @@
+Supervised Learning : Supervised Learning is a type of Machine Learning in which the model learns from labeled data. Labeled data means the correct output (target) is already known.
+                      The model learns the relationship between input features and the target, then predicts the output for new data.
+Types of Supervised Learning : 
+Regression: Predicts numerical values (e.g., salary, house price).
+Classification: Predicts categories (e.g., Yes/No, Spam/Not Spam).
+Uses : 1. Easy to train with labeled data.
+       2. Widely used in prediction problems.
+       3. Provides accurate results when good-quality data is available.
+Regression : Regression is a supervised learning technique used to predict continuous numerical values.
+             Example : Predict employee salary, Predict house price.
+Regression Algorithms : 1. Linear Regression
+                        2. Ridge Regression
+                        3. Lasso Regression
+Classification : Classification is a supervised learning technique used to predict categories or classes.
+                 Example : Spam or Not Spam, Pass or Fail
+Classification Algorithms : 1. K-Nearest Neighbors (KNN)
+                            2. Decision Tree
+                            3. Naive Bayes
+Evaluation Metrics : Evaluation metrics are measures used to check how well a Machine Learning model performs.
+           For Regression Model :  Mean Squared Error (MSE), R² Score
+           For Classification Model : Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+Train-Test Split : Train-Test Split is the process of dividing the dataset into two parts:
+Training Data: Used to train the model.
+Testing Data: Used to evaluate the model.
+Cross-Validation : Cross-validation is a technique used to evaluate a model more reliably by dividing the dataset into multiple parts (folds). 
+                   The model is trained and tested several times, and the average performance is calculated.
+
