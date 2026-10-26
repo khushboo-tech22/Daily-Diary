@@ -1,1 +1,23 @@
-
+Feature Selection : Feature selection is the process of selecting the most important features from a dataset to improve model performance. 
+                    It removes unnecessary or irrelevant features, reduces complexity, and can improve accuracy.
+Methods of Feature Selection:
+1. Filter Method: Selects features using statistical measures.
+2. Wrapper Method: Selects features by testing different combinations.
+3. Embedded Method: Selects features during model training.
+Hyperparameter Tuning : Hyperparameter tuning is the process of finding the best settings for a machine learning model to improve its performance.
+                        Hyperparameters are set before training the model.
+Examples of Hyperparameters:
+- n_estimators – Number of trees in a Random Forest model.
+- max_depth – Maximum depth of a tree.
+- n_neighbors – Number of neighbors in the KNN algorithm.
+- learning_rate – Controls the learning speed of some models.
+Machine Learning Pipelines : A machine learning pipeline is a sequence of steps used to process data and train a model in an organized way. 
+                             It combines multiple tasks into a single workflow.
+Main Steps:
+1. Data collection
+2. Data preprocessing
+3. Feature selection
+4. Model training
+5. Model evaluation
+6. Prediction
+Model Interpretation : Model interpretation is the process of understanding how a machine learning model makes predictions and which features influence its output.
